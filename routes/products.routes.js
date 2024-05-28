@@ -1,10 +1,10 @@
 
 
 import { Router } from "express";
-import { __dirname } from "../../path.js";
-import { productValidation } from "../../middlewares/productValidation.js";
-import { idValidation } from "../../middlewares/idValidation.js";
-import ProductManager from "../../managers/products.manager.js";
+import { __dirname } from "../path.js";
+import { productValidation } from "../middlewares/productValidation.js";
+import { idValidation } from "../middlewares/idValidation.js";
+import ProductManager from "../managers/products.manager.js";
 
 // instancias
 

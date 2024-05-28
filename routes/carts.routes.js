@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { __dirname } from "../../path.js";
-import CartsManager from "../../managers/carts.manager.js";
+import { __dirname } from "../path.js";
+import CartsManager from "../managers/carts.manager.js";
 
 // instancias
 
